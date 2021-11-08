@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Grenze+Gotisch:wght@300&display=swap");
+
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+  margin-left: 20px;
+}
+.log {
+  width: 400px;
+  margin: 10px auto;
+  margin-top: 50px;
+  text-align: center;
+  border-bottom: 3px solid green;
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+.log {
+  width: 300px;
+  margin: 10px auto;
+  margin-top: 50px;
+  text-align: center;
+  border-bottom: 3px solid green;
+}
+}
+
+.inputField input[type="text"]:focus {
+  border-bottom: 1px solid rgb(20, 57, 180) !important;
+  box-shadow: 0 1px 0 0 rgb(20, 57, 180) !important;
+}
+
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: gray !important;
+}
+
+.profile{
+  display: flex;
+  justify-content: space-around;
+  margin:18px 0px;
+  padding-bottom: 15px ;
+  border-bottom: 1px solid black ;
+}
+.rightProfile{
+display: flex;
+justify-content: space-between;
+}
+
+
+.Gallery{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.Gallery .item{
+  width:250px;
+  height:200px;
+  margin-bottom: 15px;
+}
+
+.post {
+  width: 550px;
+  margin: 10px auto;
+  margin-top: 50px;
+  text-align: center;
+  border-bottom: 3px solid rgb(0, 13, 128);
+}
+
+@media screen and (max-width: 600px) {
+ .post {
+  width: 300px;
+}
+.home{
+  max-width: 300px;
+    margin: 0px auto;
+  
+     height: max-content;
+     text-align: center;
+     
+}
+.hcard{
+  max-width: 300px;
+   
+    margin: 0px auto;
+     height: max-content;
+}
+
+}
+
+.home{
+   max-width: 450px;
+    
+    margin: 0px auto;
+     height: max-content;
+     
+}
